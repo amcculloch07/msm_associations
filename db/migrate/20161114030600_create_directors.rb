@@ -5,6 +5,9 @@ class CreateDirectors < ActiveRecord::Migration
       t.string :dob
       t.text :bio
       t.string :image_url
+
+      t.timestamps
+
     end
   end
 end
